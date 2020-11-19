@@ -1,10 +1,10 @@
 import React from "react";
 
-const Tweet = () => {
+const Tweet = ({name, message}) => {
     return (
         <div className="tweet">
-            <h2>name</h2>
-            <h3>message</h3>
+            <h2>{name}</h2>
+            <h3>{message}</h3>
             <button>Delete</button>
             <button>Like</button>
         </div>

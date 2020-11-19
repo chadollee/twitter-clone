@@ -11,7 +11,7 @@ function App() {
     <div>
       <h1>Hello React</h1>
       <CreateTweet />
-      <TweetList />
+      <TweetList name={name} message={message} />
     </div> 
   );
 }
